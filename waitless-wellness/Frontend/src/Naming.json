@@ -1,4 +1,12 @@
 { 
-    "companyName": "Waitless Wellness"
+    "companyName": "Waitless Wellness",
+    "navbar": {
+        "Homepage": "Home",
+        "FAQPage": "FAQs",
+        "NearestClinics": "Find a physiotherapist",
+        "Login": "Login",
+        "Signup": "Signup"
+    }
+
 }
 
