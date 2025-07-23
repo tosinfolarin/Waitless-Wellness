@@ -1,18 +1,17 @@
-import React from 'react';
-import naming from "/Users/theoosinfolarin/Desktop/Waitless-Wellness/waitless-wellness/Frontend/src/Naming.json";
-
+import { Link } from 'react-router-dom';
+import naming from '../Naming.json';
 
 export const Navbar: React.FC = () => {
   return (
     <header className="navbar">
       <nav>
         <ul className="navbar-links">
-          <li><a href="/">{naming.navbar.Homepage}</a></li>
-          <li><a href="/symptoms">{naming.navbar.Symptoms}</a></li>
-          <li><a href="/faqs">{naming.navbar.FAQPage}</a></li>
-          <li><a href="/closestClinics">{naming.navbar.NearestClinics}</a></li> API to find phsyios
-          <li><a href="/signup">{naming.navbar.Signup}</a></li>
-          <li><a href="/login">{naming.navbar.Login}</a></li>
+          <li><Link to="/">{naming.navbar.Homepage}</Link></li>
+          <li><Link to="/symptoms">{naming.navbar.Symptoms}</Link></li>
+          <li><Link to="/faqs">{naming.navbar.FAQPage}</Link></li>
+          <li><Link to="/closestClinics">{naming.navbar.NearestClinics}</Link></li>
+          <li><Link to="/signup">{naming.navbar.Signup}</Link></li>
+          <li><Link to="/login">{naming.navbar.Login}</Link></li>
         </ul>
       </nav>
     </header>
