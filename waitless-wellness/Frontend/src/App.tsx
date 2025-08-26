@@ -3,7 +3,7 @@ import naming from './Naming.json'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './HomePage'
 import SymptomPage from './SymptomPage'
-import FaqPage from './FaqPage'
+// import FaqPage from './FaqPage'
 import ClosestClinicsPage from './ClosestClinicsPage'
 import SignupPage from './SignUpPage'
 import LoginPage from './LoginPage'
@@ -16,7 +16,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/symptoms" element={<SymptomPage />} />
-        <Route path="/faqs" element={<FaqPage />} />
+        {/* <Route path="/faqs" element={<FaqPage />} /> */}
         <Route path="/closestClinics" element={<ClosestClinicsPage />} />
         // <Route path="/signup" element={<SignupPage />} />
         <Route path="/login" element={<LoginPage />} />
