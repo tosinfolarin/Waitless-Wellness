@@ -10,7 +10,7 @@ const ClosestClinicsPage: React.FC = () => {
           <span className="text-blue-600">Waitless Wellness</span>
         </h1>
         <p className="text-lg md:text-xl mb-8">
-            closest clinics API integration
+            Closest clinics API integration
         </p>
 
       </section>
