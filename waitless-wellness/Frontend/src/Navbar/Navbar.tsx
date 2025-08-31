@@ -5,8 +5,12 @@ export const Navbar: React.FC = () => {
   return (
     <header className="navbar">
       <nav>
+        
         <ul className="navbar-links">
-          <li><Link to="/">{naming.navbar.Homepage}</Link></li>
+          <div className="navTitle">
+            Waitless Wellness
+          </div>
+          <li ><Link to="/">{naming.navbar.Homepage}</Link></li>
           <li><Link to="/symptoms">{naming.navbar.Symptoms}</Link></li>
           <li><Link to="/faqs">{naming.navbar.FAQPage}</Link></li>
           <li><Link to="/closestClinics">{naming.navbar.NearestClinics}</Link></li>
