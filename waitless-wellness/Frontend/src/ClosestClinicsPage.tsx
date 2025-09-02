@@ -11,6 +11,7 @@ const ClosestClinicsPage: React.FC = () => {
         </h1>
         <p className="text-lg md:text-xl mb-8">
             Closest clinics API integration
+            Search by clinic location 
         </p>
 
       </section>
