@@ -28,7 +28,7 @@ a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  width: 95%;     
+  width: 100%;     
   z-index: 1000;     
   background: rgb(2, 255, 230); 
   padding: 10px;
@@ -39,7 +39,7 @@ a:hover {
   justify-content: flex-end;
   list-style: none;  
   margin: 0;
-  padding: 0;
+  padding: 10px;
   display: flex;   
   gap: 20px;
 }
@@ -48,6 +48,7 @@ a:hover {
   text-decoration: none;
   color: black;
   font-weight: 500;
+  padding-right: 25px;
 }
 
 
