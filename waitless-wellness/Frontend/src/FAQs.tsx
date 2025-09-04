@@ -57,7 +57,7 @@ const FAQs = () => {
   return (
     <div className="dropdown-container">
       <h1>Frequently Asked Questions</h1>
-      <ul>
+      <ul className="faq-list">
         {dropdowns.map((dropdown, index) => (
           <li key={index}>
             <button onClick={() => toggleDropdown(index)}>
