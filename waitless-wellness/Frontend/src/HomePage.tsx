@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
         </h1>
         <p className="text-lg md:text-xl mb-8">
           Track your symptoms with us, Find nearby clinics and access reliable health information.
-          {information.MskPhysioInfo}
+          {information.MskPhysioInfo} 
         </p>
       </section>
     </main>
