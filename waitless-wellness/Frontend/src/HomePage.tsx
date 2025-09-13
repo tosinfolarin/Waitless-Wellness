@@ -1,6 +1,7 @@
 // src/pages/HomePage.tsx
 import React from "react";
 import { Link } from "react-router-dom";
+import information from "./information.json"
 
 const HomePage: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const HomePage: React.FC = () => {
         </h1>
         <p className="text-lg md:text-xl mb-8">
           Track your symptoms with us, Find nearby clinics and access reliable health information.
-        
+          {information.MskPhysioInfo}
         </p>
       </section>
     </main>
